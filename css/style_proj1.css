@@ -1,0 +1,390 @@
+/* montserrat-100 - cyrillic */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/montserrat-v26-cyrillic-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-200 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/montserrat-v26-cyrillic-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-300 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat-v26-cyrillic-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-regular - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-500 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v26-cyrillic-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-600 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v26-cyrillic-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-700 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v26-cyrillic-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-800 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/montserrat-v26-cyrillic-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-900 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/montserrat-v26-cyrillic-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 100%;
+    background-image: url(../images/bacg_cont.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+}
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    background: rgb(138, 122, 238);
+    flex-shrink: 0;
+    position: static;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.header_logo {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-left: 100px;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 100px;
+    position: relative;
+}
+
+.header_logo:hover {
+    color: #c2c2c2;
+}
+
+.header_nav {
+    margin-right: 100px;
+    position: relative;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header_link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.header_link:hover {
+    color: #c2c2c2;
+}
+
+.header_item {
+    display: inline-block;
+    margin-right: 73px;
+    position: relative; /* Добавлено для активного состояния */
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_item_active::after {
+    content: "";
+    display: block;
+    width: 150px; /* Длина полоски */
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    bottom: -12px; /* Отступ вниз */
+    transform: translateX(-50%);
+}
+
+.header_item a:focus {
+    color: rgb(175, 175, 175); /* Цвет при фокусировке */
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 540px;
+    height: 349px;
+}
+
+.projects {
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+.projects h2 {
+    margin-left: 278px;
+    margin-top: 115px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.projects_grid {
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 49px 20px;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+
+.project_top {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.project_top img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.project_description{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.project_bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.project_bottom img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 82px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(138, 122, 238);
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.arrow {
+    font-size: 32px; /* Увеличиваем размер стрелки */
+    color: rgb(138, 122, 238);
+    text-decoration: none;
+    line-height: 1; /* Убираем дополнительные отступы */
+    transition: all 0.3s ease-in-out; /* Плавный эффект при наведении */
+}
+
+.arrow:hover {
+    color: rgb(109, 91, 221);
+}
+
+
+
+.arrow-right {
+    margin-bottom: 12px; /* Отступ между текстом и стрелкой */
+    align-self: flex-end; /* Выровнять стрелку вправо */
+}
+.text-right{
+    color: rgb(138, 122, 238);
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-right:hover{
+    color: rgb(109, 91, 221);
+}
+
+footer{
+    margin-top: 270px;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+.footer_wrapper{
+    width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social_icons{
+    display: inline-block;
+    margin-top: 35px;
+}
+.social_icons a{
+    display: inline-block;
+    margin: 0 50px;
+
+}
+.social_icons img{
+    width: 48px;
+    height: 48px;
+}
+
+#magnifier {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+    display: none;
+    z-index: 9999;
+    pointer-events: none;
+
+    border: 2px solid #8a7aee; /* Твоя фиолетовая обводка */
+    border-radius: 12px; /* Скругленные углы */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Мягкая тень */
+    background-color: white;
+}
+
+#magnifier img {
+    position: absolute;
+
+}
+
+#scrollToTopBtn {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(138, 122, 238);
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#scrollToTopBtn:hover {
+    background-color: rgba(138, 122, 238, 0.51); /* Немного темнее при наведении */
+    transform: scale(1.1); /* Легкое увеличение */
+}
