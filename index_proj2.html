@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_proj2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <li class="header_item">
+                    <a href="index.html" class="header_logo">ГЛАВНАЯ</a>
+                </li>
+                <!-- Навигация с остальными пунктами -->
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="index_aboutme.html" class="header_link">ОБО МНЕ</a>
+                        </li>
+                        <li class="header_item header_item_active">
+                            <a href="index_proj.html" class="header_link">ПРОЕКТЫ</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="index_cont.html" class="header_link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+        </div>
+    </header>
+    <div class="projects">
+    <h2>/3D МОДЕЛЬ ПЕРСОНАЖА ДЛЯ МОБИЛЬНОЙ ИГРЫ</h2>
+        <div class="projects_grid">
+            <div class="project_top">
+                <img src="images/img_pr10.png" alt="Изображение проекта">
+                <p class="project_description">
+                    проект создавался для интерфейсов мобильной игры в жанре гасяпон. Персонаж создавался по концепту Шрека. Работу можно использовать для реальной мобильной игры. Каркас персонажа создавался при помощи скульптинга в программе Blender.
+                    Также была создана локация, представляющая собой "ареал обитания" персонажа. 
+
+                </p>
+            </div>
+            <div class="project_bottom">
+                <img src="images/img_pr21.png" alt="Изображение проекта">
+                <img src="images/img_pr22.png" alt="Изображение проекта">
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="nav-item">
+                <a href="index_proj1.html" class="arrow arrow-left">&larr;</a> <!-- Стрелка влево -->
+                <a href="index_proj1.html" class="text-left">предыдущий проект</a>
+            </div>
+            <div class="nav-item">
+                <a href="index_proj3.html" class="arrow arrow-right">&rarr;</a> <!-- Стрелка вправо -->
+                <a href="index_proj3.html" class="text-right">следующий проект</a>            
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_wrapper">
+            <div class="social_icons">
+                <a href="https://vk.com/fuzique"> <img src="images/Social Icons.svg" alt="vk"></a>
+                <a href="https://t.me/fuziquee"> <img src="images/Social Icons2.svg" alt="tg"></a>
+                <a href="https://steamcommunity.com/id/fuzeinho/"> <img src="images/Social Icons3.svg" alt="ds"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+    <div id="magnifier"></div>
+    <script src="js/magnifier.js" defer></script>
+    <script src="js/scroll.js" defer></script>
+    <button id="scrollToTopBtn">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 15l6-6 6 6"></path>
+        </svg>
+      </button>
+</body>
+</html>

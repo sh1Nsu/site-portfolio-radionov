@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_cont.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <li class="header_item">
+                    <a href="index.html" class="header_logo">ГЛАВНАЯ</a>
+                </li>
+                <!-- Навигация с остальными пунктами -->
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="index_aboutme.html" class="header_link">ОБО МНЕ</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="index_proj.html" class="header_link">ПРОЕКТЫ</a>
+                        </li>
+                        <li class="header_item header_item_active">
+                            <a href="index_cont.html" class="header_link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="contact">
+        <h2>/СВЯЗЬ СО МНОЙ</h2>
+        <form action="#" method="POST">
+            <label for="name">фио</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">e-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">услуга</label>
+            <select id="service" name="service">
+                <option value="modeling">3D Моделирование</option>
+                <option value="animation">Анимация</option>
+                 <option value="render">Рендеринг</option>
+            </select>
+
+            <label for="comment">комментарий</label>
+            <textarea id="comment" name="comment"></textarea>
+
+            <button type="submit" class="submit-button">ОТПРАВИТЬ</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer_wrapper">
+            <div class="social_icons">
+                <a href="https://vk.com/fuzique"> <img src="images/Social Icons.svg" alt="vk"></a>
+                <a href="https://t.me/fuziquee"> <img src="images/Social Icons2.svg" alt="tg"></a>
+                <a href="https://steamcommunity.com/id/fuzeinho/"> <img src="images/Social Icons3.svg" alt="ds"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+    <script src="js/scroll.js" defer></script>
+</body>
+</html>
